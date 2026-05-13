@@ -1,0 +1,6 @@
+{
+  "name": "WindieOS Onboarding",
+  "description": "Public onboarding and download website for WindieOS - the desktop layer for personal AI agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
