@@ -1,16 +1,17 @@
 export const LINKS = {
+  releasesUrl: "https://github.com/buiilding/Windie-agent/releases",
   download: {
-    windows: "{{WINDOWS_DOWNLOAD_URL}}",
-    macos: "{{MACOS_DOWNLOAD_URL}}",
-    linuxAppImage: "{{LINUX_APPIMAGE_DOWNLOAD_URL}}",
-    linuxDeb: "{{LINUX_DEB_DOWNLOAD_URL}}",
-    linuxRpm: "{{LINUX_RPM_DOWNLOAD_URL}}",
-    allReleases: "https://github.com/buiilding/Windie-agent/releases/latest",
+    windows: "https://github.com/buiilding/Windie-agent/releases",
+    macos: "https://github.com/buiilding/Windie-agent/releases",
+    linuxAppImage: "https://github.com/buiilding/Windie-agent/releases",
+    linuxDeb: "https://github.com/buiilding/Windie-agent/releases",
+    linuxRpm: "https://github.com/buiilding/Windie-agent/releases",
+    allReleases: "https://github.com/buiilding/Windie-agent/releases",
   },
   resources: {
     github: "https://github.com/buiilding/Windie-agent",
-    releases: "https://github.com/buiilding/Windie-agent/releases/latest",
-    docs: "/docs", // Replace with absolute URL if hosted externally (e.g., https://github.com/buiilding/Windie-agent/tree/main/docs)
+    releases: "https://github.com/buiilding/Windie-agent/releases",
+    docs: "https://github.com/buiilding/Windie-agent/tree/main/docs",
     discord: "https://discord.gg/windieos",
   }
 };
