@@ -103,10 +103,9 @@ export default function App() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="flex flex-col items-center"
           >
-            {/* NOTE: User should upload their `windieos-banner.png` to the /public directory for this to render correctly */}
-            <div className="relative mb-8 w-full max-w-2xl h-32 md:h-48 flex items-center justify-center">
+            <div className="relative mb-10 w-full max-w-3xl h-32 md:h-52 flex items-center justify-center">
                <img 
-                 src="/windieos-banner.png" 
+                 src="/windieos-logo-transparent.png" 
                  alt="WindieOS" 
                  className="w-full h-full object-contain filter drop-shadow-[0_0_30px_rgba(0,122,255,0.2)]"
                  onError={(e) => {
